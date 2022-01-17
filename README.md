@@ -4,4 +4,4 @@
 python3 pp_engagement.py
 ```
 Output:
-!()[https://github.com/anitalu724/110-1_Data-Science-Final-Project/output/week2engagement_eachPP.pdf]
+![](https://github.com/anitalu724/110-1_Data-Science-Final-Project/output/week2engagement_eachPP.pdf)

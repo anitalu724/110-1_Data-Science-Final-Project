@@ -94,7 +94,8 @@ def timePlot(data, type, target, range, target_list, legend_list, fig_name, colo
     ax.set_ylabel('Average Daily New Covid-19 Cases', color='#aaaaaa')
     ax.tick_params(axis='y', colors = '#aaaaaa', direction='in')
     ax.tick_params(axis='x', direction='in')
-    plt.savefig('output/'+fig_name+'.pdf', dpi=300,  bbox_inches='tight')
+    plt.savefig('output/pdf/'+fig_name+'.pdf', dpi=300,  bbox_inches='tight')
+    plt.savefig('output/png/'+fig_name+'.png', dpi=300,  bbox_inches='tight')
     print('Figure '+fig_name+'.pdf has been generated!')
 
 
@@ -106,25 +107,25 @@ def timePlot(data, type, target, range, target_list, legend_list, fig_name, colo
 
 
 ## Week 2 Engagement for each pp_total_raw (4 intervals)
-# temp = pd.read_csv('input/csv/pp_engage_4.csv')
-# pp_list = [0, 1, 2, 3]
-# legend_list = ['4K-10K', '10K-16K', '16K-22K', '22K-34K']
-# colors=['#084082', '#B4C0D4', '#CAB2D7', '#6A3D9A']
-# timePlot(temp, 'engagement_index','pp_total_raw', 1300 , pp_list, legend_list, 'week2engagement_eachPP', colors)
+temp = pd.read_csv('input/csv/pp_engage_4.csv')
+pp_list = [0, 1, 2, 3]
+legend_list = ['4K-10K', '10K-16K', '16K-22K', '22K-34K']
+colors=['#084082', '#B4C0D4', '#CAB2D7', '#6A3D9A']
+timePlot(temp, 'engagement_index','pp_total_raw', 1300 , pp_list, legend_list, 'week2engagement_eachPP', colors)
 
 ## Week 2 pct_access for each pp_total_raw (4 intervals)
-# temp = pd.read_csv('input/csv/pp_engage_4.csv')
-# pp_list = [0, 1, 2, 3]
-# legend_list = ['4K-10K', '10K-16K', '16K-22K', '22K-34K']
-# colors=['#084082', '#B4C0D4', '#CAB2D7', '#6A3D9A']
-# timePlot(temp, 'pct_access','pp_total_raw', 3, pp_list, legend_list, 'week2pctAccess_eachPP', colors)
+temp = pd.read_csv('input/csv/pp_engage_4.csv')
+pp_list = [0, 1, 2, 3]
+legend_list = ['4K-10K', '10K-16K', '16K-22K', '22K-34K']
+colors=['#084082', '#B4C0D4', '#CAB2D7', '#6A3D9A']
+timePlot(temp, 'pct_access','pp_total_raw', 3, pp_list, legend_list, 'week2pctAccess_eachPP', colors)
 
 
 ## Week 2 Engagement for each locale ('City', 'Town', 'Suburb', 'Rural')
-# temp = pd.read_csv('input/csv/localewise.csv')
-# locales = ['City', 'Town', 'Suburb', 'Rural']
-# colors=['#084082', '#B4C0D4', '#E0B7B5', '#B34F4F']
-# timePlot(temp, 'engagement_index', 'locale',  550 , locales, locales, 'week2engagement_locale', colors)
+temp = pd.read_csv('input/csv/localewise.csv')
+locales = ['City', 'Town', 'Suburb', 'Rural']
+colors=['#084082', '#B4C0D4', '#E0B7B5', '#B34F4F']
+timePlot(temp, 'engagement_index', 'locale',  550 , locales, locales, 'week2engagement_locale', colors)
 
 ## Week 2 pct_access for each locale ('City', 'Town', 'Suburb', 'Rural')
 temp = pd.read_csv('input/csv/localewise.csv')

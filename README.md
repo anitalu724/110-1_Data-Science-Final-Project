@@ -4,7 +4,7 @@
 python3 pp_engagement.py
 ```
 Output:
-![](https://github.com/anitalu724/110-1_Data-Science-Final-Project/blob/main/output/week2engagement_eachPP.pdf)
-![](https://github.com/anitalu724/110-1_Data-Science-Final-Project/blob/main/output/week2engagement_locale.pdf)
-![](https://github.com/anitalu724/110-1_Data-Science-Final-Project/blob/main/output/week2pctAccess_eachPP.pdf)
-![](https://github.com/anitalu724/110-1_Data-Science-Final-Project/blob/main/output/week2pctAccess_locale.pdf)
+![](https://github.com/anitalu724/110-1_Data-Science-Final-Project/blob/main/output/week2engagement_eachPP.pdf?raw=true)
+![](https://github.com/anitalu724/110-1_Data-Science-Final-Project/blob/main/output/week2engagement_locale.pdf?raw=true)
+![](https://github.com/anitalu724/110-1_Data-Science-Final-Project/blob/main/output/week2pctAccess_eachPP.pdf?raw=true)
+![](https://github.com/anitalu724/110-1_Data-Science-Final-Project/blob/main/output/week2pctAccess_locale.pdf?raw=true)
